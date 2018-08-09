@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main( )
+{
+  float num1,num2,sum;
+  clrscr( );
+  printf("Enter first number: ");
+  scanf("%f",&num1);
+  printf("Enter second number: ");
+  scanf("%f",&num2);
+  sum=num1+num2;
+  printf("Sum of two numbers = %f",sum);
+  getch( );
+}
+
+
+
+
+
+
+
+output
+Enter first number: 12                                                                                                         
+Enter second number: 78                                                                                                        
+Sum of two numbers = 90.000000 
